@@ -43,8 +43,8 @@
 
 <script setup lang="ts">
 import { useControlesAudio } from '../composable/useControlesAudio'
-import {useAudioStore } from '../stores/audio'
 import {onMounted } from "vue"
+import { useAudioStore } from '../stores/audio'
 
 const audioStore = useAudioStore()
 const {siguiente, anterior} = useControlesAudio()
