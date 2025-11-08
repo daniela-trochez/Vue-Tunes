@@ -53,8 +53,6 @@ onMounted(()=>{
     audioStore.cargarCanciones()
 })
 
-
-
 </script>
 
 <style src="../assets/css/player.css" scoped></style>
